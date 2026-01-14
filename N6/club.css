@@ -1,0 +1,262 @@
+
+.register {
+    background: linear-gradient(135deg, #fdecef, #eef6fb);
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #333;
+}
+
+
+.banner {
+    background: url("img/img-0.jpg") center/cover no-repeat;
+    padding: 10rem 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+}
+
+.banner h1 {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+
+.slogan {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 60px;
+}
+
+.block_3 {
+    flex: 1;
+    margin: 15px;
+    background: #fdecef; 
+    padding: 25px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.block_3:hover {
+    transform: translateY(-8px);
+}
+
+.block_3 h2 {
+    color: #d32f2f;
+    margin-bottom: 10px;
+}
+
+
+.clb {
+    width: 100%;
+    margin: 30px 0;
+    border-collapse: collapse;
+}
+
+
+.menu-clb {
+    width: 20%;
+    background: #f2f2f2;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.menu-clb ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu-clb li {
+    margin: 12px 0;
+}
+
+.menu-clb a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+
+.img-box {
+    width: 40%;
+    text-align: center;
+    padding: 15px;
+}
+
+.img-clb {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+
+.noidung-clb {
+    background: #eef6fb;
+    padding: 40px;
+    text-align: center;
+}
+
+.noidung-clb h2 {
+    margin-bottom: 20px;
+}
+
+.noidung-clb p {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.mo-ta-clb {
+    white-space: nowrap;
+    text-align: center;
+    width: 100%;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 40px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer {
+    background: #111;
+    color: #eee;
+    padding: 40px 60px 20px;
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-box {
+    width: 45%;
+}
+
+.footer h3 {
+    margin-bottom: 15px;
+    color: #ffd700;
+}
+
+.footer p {
+    margin: 8px 0;
+}
+
+.footer a {
+    color: #9fd3ff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin: 8px 0;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.truyenthong .noidung-thethao {
+    background: #fff0f6;   
+}
+
+/* đoạn mô tả */
+.truyenthong .mo-ta-thethao {
+    font-style: italic;
+    line-height: 1.8;
+    max-width: 850px;
+}
+
+/* menu bên trái */
+.truyenthong .menu-thethao {
+    background: #fce4ec;
+}
+
+/* icon + chữ trong menu */
+.truyenthong .menu-thethao li {
+    font-weight: 500;
+}
+
+/* hình ảnh truyền thông */
+.truyenthong .img-thethao {
+    box-shadow: 0 15px 30px rgba(255, 105, 180, 0.35);
+}
+
+/* nút đăng ký */
+.truyenthong .btn-dangki {
+    background: linear-gradient(135deg, #ff6fa5, #ff9acb);
+}
+
+.truyenthong .btn-dangki:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+}
+/* ===== DK ===== */
+.btn-dangki {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 35px;
+    background: linear-gradient(135deg, #0077cc, #00b4d8);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 40px;
+    text-decoration: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+    transition: all 0.3s ease;
+}
+
+.btn-dangki:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.35);
+    background: linear-gradient(135deg, #005fa3, #0096c7);
+}
+
