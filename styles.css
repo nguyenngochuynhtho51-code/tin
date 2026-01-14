@@ -1,0 +1,258 @@
+
+.register {
+    background: linear-gradient(135deg, #fdecef, #eef6fb);
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #333;
+}
+
+
+.banner {
+    background: url("img/img-0.jpg") center/cover no-repeat;
+    padding: 10rem 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+}
+
+.banner h1 {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+
+.slogan {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 60px;
+}
+
+
+.block_3 {
+    flex: 1;
+    margin: 15px;
+    background: #fdecef; 
+    padding: 25px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.block_3:hover {
+    transform: translateY(-8px);
+}
+
+.block_3 h2 {
+    color: #d32f2f;
+    margin-bottom: 10px;
+}
+
+
+.clubs {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.club {
+    display: flex;
+    background: white;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+}
+
+.club.reverse {
+    flex-direction: row-reverse;
+}
+
+/* 🌫 ĐỔ BÓNG ẢNH CLB */
+.club img {
+    width: 45%;
+    object-fit: cover;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+/* 🌊 Ô NỘI DUNG XANH BIỂN SIÊU NHẠT */
+.club-text {
+    width: 55%;
+    padding: 40px;
+    background: #eef6fb;
+}
+
+.club-text h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.club-text ul {
+    margin-bottom: 20px;
+}
+
+.club-text li {
+    margin-bottom: 8px;
+}
+
+.club-text a {
+    display: inline-block;
+    padding: 10px 22px;
+    background: #4364f7;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.club-text a:hover {
+    background: #2c4de0;
+}
+
+
+.footer {
+    background: #222;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: #8ab4ff;
+    text-decoration: none;
+}
+.register h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #d32f2f;
+}
+
+.register p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.register-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    background: #4364f7;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.register-btn:hover {
+    background: #2c4de0;
+    transform: scale(1.05);
+}
+
+
+body {
+    background: #f4f8fb;
+}
+
+.phieu {
+    width: 600px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.phieu h1 {
+    text-align: center;
+    color: #c0392b;
+    margin-bottom: 10px;
+}
+
+.phieu h3 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.phieu label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.phieu input,
+.phieu select,
+.phieu textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.phieu input:focus,
+.phieu select:focus,
+.phieu textarea:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.nut {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nut input {
+    width: 120px;
+    padding: 10px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nut input[type="submit"] {
+    background: #3498db;
+    color: white;
+}
+
+.nut input[type="reset"] {
+    background: #bdc3c7;
+}
+
+.nut input:hover {
+    opacity: 0.85;
+}
+
+
+
